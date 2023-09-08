@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', sans-serif;
+}
+body{
+    background: url(./images/portbackground4.avil.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 10;
+}
+.name{
+    display: flex;
+    font-family:URW Chancery L,cursive;   
+    color: aqua;
+}
+.name h2{
+    font-size: 50px;
+}
+.navigation{
+    margin-right: 50px;
+}
+.navigation a{
+    padding:0px 10px 0px 10px;
+    text-decoration: none;
+    color: #e6e7ec;
+    font-weight: 700;
+    font-size: 25px;
+}
+.intro {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.txt h3{
+    margin-top: 70px;
+    line-height: 1.5;
+    font-size: 30px;
+    color: #e6e7ec;
+}
+.txt p{   
+    line-height: 1.5;
+    font-size: 40px;
+    font-family: 'Segoe UI',sans-serif;
+    color:white;
+}
+.txt p1{
+    line-height: 1.5;
+    font-size: 30px;
+    font-family: 'Segoe UI',sans-serif;
+    color:white;
+}
+.txt p1 span{
+    color: aqua;
+}
+.img{
+    width: 35%;
+    height: 35vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+}
+.txt a{   
+    display: flex;
+}
+.txt a button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    border: none;
+    font-weight: bolder;   
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 187, 150);
+    width: 100%;
+    flex-direction: column;
+    margin: 8rem 0rem 5rem;
+    padding-top: 2rem;
+}
+.aboutme h2{
+    padding:30px;
+    font-family:'Segoe UI',sans-serif;
+    margin-right: 1rem;
+    font-size: 30px; 
+}
+.aboutme p{
+    width: 50%;
+    margin: 5px 0px 40px;
+    line-height: 2.0;
+    font-family:'Lucida Sans Unicode',sans-serif;
+    padding-bottom: 2rem;
+    font-size: 20px;   
+}
+.skills{
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+.skills h2{
+    text-align: center;
+    font-size: 30px;
+}
+.skills .skills-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10rem;
+    position: relative;
+}    
+.skills-row .skills-column{
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.skills-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+
+}
+.skills-box .skills-content{
+    position: relative;
+    border:.2rem solid  aquamarine;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    width: 25vw;
+    height: 55vh;
+}
+.skills-box .skills-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.skills-content .progress{
+    padding: 1rem 0;
+}
+.skills-content .prograss h4{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-weight: 200;
+}
+.skills-content .prograss .bar{
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid rgb(0, 136, 255);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+.skills-content .prograss .bar span{
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background-color: aqua;
+}
+.heading{
+    margin-bottom: 4rem;
+}
+.skills-column:nth-child(1) .skills-content .prograss:nth-child(1) .bar span{
+    width :85%;
+}
+.skills-column:nth-child(1) .skills-content .prograss:nth-child(2) .bar span{
+    width :75%;
+}
+.skills-column:nth-child(1) .skills-content .prograss:nth-child(3) .bar span{
+    width :65%;
+}
+.skills-column:nth-child(1) .skills-content .prograss:nth-child(4) .bar span{
+    width :90%;
+}
+.skills-column:nth-child(2) .skills-content .prograss:nth-child(1) .bar span{
+    width :90%;
+}
+.skills-column:nth-child(2) .skills-content .prograss:nth-child(2) .bar span{
+    width :60%;
+}
+.skills-column:nth-child(2) .skills-content .prograss:nth-child(3) .bar span{
+    width : 85%;
+}
+.skills-column:nth-child(2) .skills-content .prograss:nth-child(4) .bar span{
+    width :75%;
+}
+.project{
+    
+    background-color: rgb(18, 187, 150);
+    width: 100%;
+    height: 100%;
+}
+.project h2{
+    font-family:'Segoe UI',sans-serif;
+    padding: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+.row{
+    margin-bottom:18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15rem;
+}
+.project img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.project a button{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    color: rgb(7, 99, 99);
+}
+.contact{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.contact h2{
+    font-family: 'Segoe UI',sans-serif;
+    padding: 20px;
+    font-size: 1.9rem;
+}
+.contact .sociallinks{
+    display: flex;
+    flex-direction: row;
+    color: rgb(223, 213, 213);
+    justify-content: space-between;
+}
+.sociallinks a{
+    padding: 40px;
+    color: #e6e7ec;
+}
